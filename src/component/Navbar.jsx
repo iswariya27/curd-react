@@ -5,11 +5,13 @@ function Navbar(props) {
     return (
         <nav className=" navbar container">
             <div className="nav-text">
-                <Link className='nav-link' to="/userList">
-                    <span>Users Imformation Lists</span></Link>
+                    <p>Users Imformation Lists</p>
+               </div>
+               <div className='links'>
+               <Link to="/userlist" className=" btn btn-primary">Users Data</Link>
             </div>
         </nav>
-    ); 
+    );
 }
 
 export default Navbar;

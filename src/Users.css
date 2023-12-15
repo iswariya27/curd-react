@@ -27,12 +27,14 @@
 }
 .nav-text {
    color: rgb(109, 1, 43);
-   text-transform: none;
-   padding-left: 40%;
-   text-decoration: gray;
+   padding-left: 30%;
    font-size: x-large;
    font-weight: bold;
-}   
+} 
+.links{
+    padding-right: 15%;
+} 
+
 .cent{
     padding-left: 25%;
 }

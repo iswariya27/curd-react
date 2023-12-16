@@ -12,7 +12,7 @@ function App() {
       <div id="content-wrapper">
         <div id="content">
           <Navbar />
-          <div class="container-fluid">
+          <div className="container-fluid">
             <Routes>
               <Route path="/userlist" element={<UserList />} />
               <Route path="/viewuser/:id" element={<ViewUser />} />
